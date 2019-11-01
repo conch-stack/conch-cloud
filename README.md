@@ -1,5 +1,5 @@
 # Beihu-Cloud
-Spring Cloud Learning
+##### Spring Cloud Learning
 
 - 拆分服务
 - 自动化部署
@@ -8,7 +8,7 @@ Spring Cloud Learning
 - 监控+日志
 - 去中心化管理数据：每个服务管理自己的数据库
 
-问题：
+##### 问题：
 
 - 运维编排能力
 - 一致性
@@ -16,7 +16,7 @@ Spring Cloud Learning
 
 
 
-微服务：
+##### 微服务：
 
 - 服务治理
   - 注册、发现
@@ -56,3 +56,10 @@ Spring Cloud Learning
   - Gateway：基于Netty异步提高吞吐；安全+监控/埋点+限流
 - 分布式缓存
 - 数据库中间件
+- 领域驱动
+  - 业务架构治理、代码防腐
+  - Halo
+- RPC
+  - GRPC整合
+- Dubbo整合
+  - spring-cloud-dubbo
