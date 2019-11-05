@@ -72,12 +72,39 @@
 
     <profiles>
         <profile>
+            <id>peer1</id>
+            <properties>
+                <env>peer1</env>
+            </properties>
+            <activation>
+                <activeByDefault>false</activeByDefault>
+            </activation>
+        </profile>
+        <profile>
+            <id>peer2</id>
+            <properties>
+                <env>peer2</env>
+            </properties>
+            <activation>
+                <activeByDefault>false</activeByDefault>
+            </activation>
+        </profile>
+        <profile>
+            <id>peer3</id>
+            <properties>
+                <env>peer3</env>
+            </properties>
+            <activation>
+                <activeByDefault>false</activeByDefault>
+            </activation>
+        </profile>
+        <profile>
             <id>dev</id>
             <properties>
                 <env>dev</env>
             </properties>
             <activation>
-                <activeByDefault>true</activeByDefault>
+                <activeByDefault>false</activeByDefault>
             </activation>
         </profile>
         <profile>

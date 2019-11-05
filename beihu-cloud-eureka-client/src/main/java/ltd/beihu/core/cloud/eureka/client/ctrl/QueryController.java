@@ -17,11 +17,18 @@ public class QueryController {
     @Autowired
     private FeignTestService feignTestService;
 
+    /**
+     * 测试Feign
+     * http://localhost:8081/query/search/github?str=spring-cloud-dubbo
+     */
     @GetMapping(value = "/search/github")
     public String searchGithubRepoByStr(@RequestParam("str") String queryStr) {
         return feignTestService.searchRepo(queryStr);
     }
 
+    /**
+     * 测试Eureka
+     */
     @GetMapping("/eureka-server")
     public Object getEurekaServerUrl(){
         return eurekaClientConfigBean.getServiceUrl();

@@ -3,13 +3,13 @@ server:
 
 spring:
   application:
-    name: eureka-client1
+    name: eureka-client
 
 eureka:
   client:
     serviceUrl:
-#      defaultZone: http://localhost:8761/eureka/ # one eureka server
+      defaultZone: http://localhost:8761/eureka/ # one eureka server
 #      defaultZone: http://localhost:8761/eureka/,http://localhost:8762/eureka/ # two eureka server
-      defaultZone: http://localhost:8761/eureka/,http://localhost:8762/eureka/,http://localhost:8763/eureka/ # three eureka server
+#      defaultZone: http://localhost:8761/eureka/,http://localhost:8762/eureka/,http://localhost:8763/eureka/ # three eureka server
     # 拉取注册信息的频率
     registry-fetch-interval-seconds: 5

@@ -13,15 +13,15 @@ eureka:
     prefer-ip-address: true
   client:
     # 检索服务
-    fetch-registry: true
+    fetch-registry: false
     # 是否注册自己
-    register-with-eureka: true
+    register-with-eureka: false
     service-url:
       # 默认域
-#      defaultZone: http://localhost:8761/eureka/ # one eureka server
+      defaultZone: http://localhost:8761/eureka/ # one eureka server
 #      defaultZone: http://localhost:8762/eureka/ # two eureka server
       # 指向除自己外的其他zone
-      defaultZone: http://localhost:8762/eureka/,http://localhost:8763/eureka/ # three eureka server
+#      defaultZone: http://localhost:8762/eureka/,http://localhost:8763/eureka/ # three eureka server
   server:
     # 自我保护
     enable-self-preservation: false
