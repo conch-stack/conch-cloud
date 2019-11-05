@@ -50,3 +50,5 @@ feign:
 logging:
   level:
     ltd.beihu.core.cloud.eureka.client.service.FeignTestService: debug
+
+# TODO hystrix配置
