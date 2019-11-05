@@ -26,6 +26,11 @@ feign:
       mime-types: text/xml,application/xml,application/json
     response:
       enabled: true
+  httpclient:
+    enabled: false
+  # 开启okhttp  后期可自定义config自己扩展okhttp的更多配置
+  okhttp:
+    enabled: true
   # 全局配置
   client:
     config:
@@ -33,6 +38,7 @@ feign:
         connectTimeout: 5000
         readTimeout: 5000
         loggerLevel: full
+
 #        retryer: # 重试 Class<Retryer>
 #        errorDecoder: # 错误解码器 Class<ErrorDecoder>
 #        requestInterceptors: # ** List<Class<RequestInterceptor>>
@@ -40,6 +46,7 @@ feign:
 #        decoder: # 解码器 Class<Decoder>
 #        encoder: # 编码器 Class<Encoder>
 #        contract: # contract配置 Class<Contract>
+
 logging:
   level:
     ltd.beihu.core.cloud.eureka.client.service.FeignTestService: debug

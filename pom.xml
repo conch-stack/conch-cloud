@@ -26,6 +26,8 @@
     <modules>
         <module>beihu-cloud-eureka</module>
         <module>beihu-cloud-config</module>
+        <module>beihu-cloud-eureka-client</module>
+        <module>beihu-cloud-provider</module>
     </modules>
 
     <dependencyManagement>

@@ -7,7 +7,7 @@
         <artifactId>beihu-cloud</artifactId>
         <version>0.0.1</version>
     </parent>
-    <artifactId>beihu-cloud-eureka-client</artifactId>
+    <artifactId>beihu-cloud-provider</artifactId>
 
     <properties>
         <java.version>1.8</java.version>
@@ -31,16 +31,6 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-config</artifactId>
-        </dependency>
-
-        <!-- Spring Cloud OpenFeign的Starter的依赖 -->
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-openfeign</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>io.github.openfeign</groupId>
-            <artifactId>feign-okhttp</artifactId>
         </dependency>
 
         <dependency>
