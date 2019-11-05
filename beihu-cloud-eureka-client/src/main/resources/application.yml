@@ -1,0 +1,21 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: eureka-client1
+  cloud:
+    config:
+      uri: http://localhost:8888
+
+eureka:
+  client:
+    # \u62C9\u53D6\u6CE8\u518C\u4FE1\u606F\u7684\u9891\u7387
+    registry-fetch-interval-seconds: 5
+    eureka-service-url-poll-interval-seconds: 10 #\u9ED8\u8BA4\u4E3A300\u79D2\uFF0C\u8FD9\u91CC\u4E3A\u4E86\u9A8C\u8BC1\u6539\u4E3A10\u79D2
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

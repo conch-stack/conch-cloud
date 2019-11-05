@@ -7,10 +7,7 @@
         <artifactId>beihu-cloud</artifactId>
         <version>0.0.1</version>
     </parent>
-    <artifactId>beihu-cloud-eureka</artifactId>
-
-    <name>beihu-cloud-eureka</name>
-    <description>beihu-cloud-eureka</description>
+    <artifactId>beihu-cloud-eureka-client</artifactId>
 
     <properties>
         <java.version>1.8</java.version>
@@ -28,8 +25,9 @@
 
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
         </dependency>
+
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-config</artifactId>
