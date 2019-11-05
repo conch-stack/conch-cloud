@@ -1,9 +1,8 @@
-
-## \u751F\u4EA7\u73AF\u5883\u63D0\u9AD8 \u81EA\u6211\u4FDD\u62A4\u89E6\u53D1\u95E8\u69DB
+## 生产环境提高 自我保护触发门槛
 #eureka.instance.lease-renewal-interval-in-seconds=10
 #eureka.server.renewal-percent-threshold=0.49
 
-# \u5F53\u524D\u670D\u52A1\u540D
+# 当前服务名
 spring:
   application:
     name: eureka-server
@@ -19,4 +18,4 @@ management:
 
 eureka:
   server:
-    peer-eureka-nodes-update-interval-ms: 10000 #\u9ED8\u8BA4\u662F10\u5206\u949F\u5373600000\uFF0C\u8FD9\u91CC\u4E3A\u4E86\u9A8C\u8BC1\u6539\u4E3A10\u79D2
+    peer-eureka-nodes-update-interval-ms: 10000 #默认是10分钟即600000，这里为了验证改为10秒
