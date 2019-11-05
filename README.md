@@ -1,5 +1,5 @@
 # Beihu-Cloud
-##### Spring Cloud Learning
+### Spring Cloud Learning
 
 - 拆分服务
 - 自动化部署
@@ -16,7 +16,7 @@
 
 
 
-##### 微服务：
+### 微服务：
 
 - 服务治理
   - 注册、发现
@@ -63,3 +63,10 @@
   - GRPC整合
 - Dubbo整合
   - spring-cloud-dubbo
+
+
+
+### 云原生12要素
+
+- TODO
+
