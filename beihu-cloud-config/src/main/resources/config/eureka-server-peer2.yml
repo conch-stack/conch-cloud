@@ -5,7 +5,7 @@ spring:
   application:
     name: eureka-server
 server:
-  port: 8761
+  port: 8762
 
 # 实例名称
 eureka:
