@@ -5,6 +5,7 @@
 
     <groupId>ltd.beihu.core</groupId>
     <artifactId>beihu-cloud</artifactId>
+    <packaging>pom</packaging>
     <version>0.0.1</version>
 
     <name>beihu-cloud</name>
@@ -28,6 +29,7 @@
         <module>beihu-cloud-config</module>
         <module>beihu-cloud-eureka-client</module>
         <module>beihu-cloud-provider</module>
+        <module>beihu-cloud-oauth</module>
     </modules>
 
     <dependencyManagement>

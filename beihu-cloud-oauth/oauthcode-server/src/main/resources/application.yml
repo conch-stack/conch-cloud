@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: oauth2-oauthcode-server
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
