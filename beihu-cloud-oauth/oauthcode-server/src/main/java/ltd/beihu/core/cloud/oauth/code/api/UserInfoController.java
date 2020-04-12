@@ -22,7 +22,7 @@ public class UserInfoController {
      */
     @RequestMapping("/api/userinfo")
     public ResponseEntity<UserInfo> getUserInfo() {
-        User user = (User)SecurityContextHolder.getContext().getAuthentication().getPrincipal();
+        User user = (User) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
         UserInfo userInfo = new UserInfo();
         userInfo.setName(user.getUsername());
         userInfo.setEmail(user.getUsername() + "163.com");

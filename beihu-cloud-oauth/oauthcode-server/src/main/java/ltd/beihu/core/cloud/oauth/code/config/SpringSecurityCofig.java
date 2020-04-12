@@ -7,6 +7,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 
 /**
  * Spring Security Config
+ *
  * @author Adam
  * @date 2020/4/4
  */

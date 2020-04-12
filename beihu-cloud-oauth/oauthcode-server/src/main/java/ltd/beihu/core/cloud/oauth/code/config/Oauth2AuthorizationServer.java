@@ -23,6 +23,10 @@ public class Oauth2AuthorizationServer extends AuthorizationServerConfigurerAdap
                 .redirectUris("http://localhost:9001/callback")
                 // 授权码模式
                 .authorizedGrantTypes("authorization_code")
+                // 简化模式
+                // .authorizedGrantTypes("implicit")
+                // 有效时间
+                // .accessTokenValiditySeconds(120)
                 .scopes("read_userinfo");
     }
 }
