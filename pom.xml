@@ -3,12 +3,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>ltd.beihu.core</groupId>
-    <artifactId>beihu-cloud</artifactId>
+    <groupId>com.nabob.conch</groupId>
+    <artifactId>conch-cloud</artifactId>
     <packaging>pom</packaging>
     <version>0.0.1</version>
 
-    <name>beihu-cloud</name>
+    <name>conch-cloud</name>
     <description>Spring Cloud Learning </description>
 
     <properties>
@@ -20,24 +20,24 @@
         <java.version>1.8</java.version>
         <maven.compiler.plugin>3.1</maven.compiler.plugin>
 
-        <beihu.boot.version>1.0.3</beihu.boot.version>
+        <conch.boot.version>1.0.5</conch.boot.version>
         <spring-cloud.version>Greenwich.SR3</spring-cloud.version>
     </properties>
 
     <modules>
-        <module>beihu-cloud-eureka</module>
-        <module>beihu-cloud-config</module>
-        <module>beihu-cloud-eureka-client</module>
-        <module>beihu-cloud-provider</module>
-        <module>beihu-cloud-oauth</module>
+        <module>conch-cloud-eureka</module>
+        <module>conch-cloud-config</module>
+        <module>conch-cloud-eureka-client</module>
+        <module>conch-cloud-provider</module>
+        <module>conch-cloud-oauth</module>
     </modules>
 
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>ltd.beihu.core</groupId>
-                <artifactId>beihu-boot-dependencies</artifactId>
-                <version>${beihu.boot.version}</version>
+                <groupId>com.nabob.conch</groupId>
+                <artifactId>conch-boot-dependencies</artifactId>
+                <version>${conch.boot.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
